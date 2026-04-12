@@ -49,9 +49,7 @@ Pessoas que querem começar a organizar suas finanças de forma prática e sem c
 # Entregável da IA
 Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
 Usar tom educativo e linguagem acessível, em português.
-```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
 
 > [!TIP]
 > Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
@@ -69,13 +67,41 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 
 > [!TIP]
 > Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+```
+Interações com Google Studio:
+> O aplicativo Finanças Amigáveis foi desenvolvido para transformar a gestão financeira em uma experiência simples e conversacional.
+> O erro foi corrigido definindo explicitamente a cor de borda no bloco @tema do Tailwind CSS v4. Agora, a classe utilitária fronteira-fronteira é reconhecida corretamente, mapeando para a variável CSS --fronteira. Além disso, aproveitei para limpar e consolidar o arquivo src/index.css, garantindo uma estrutura mais organizada e performática.
 
-### 3. Entregando o Desafio na DIO
+> Resultado final: https://aistudio.google.com/apps/a3f5b40f-15ba-45e0-bb51-92810507df0e?showAssistant=true&showPreview=true
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
+><img width="1911" height="836" alt="image" src="https://github.com/user-attachments/assets/d05c3295-ee03-4b37-bf75-015335ef19c3" />
+  
+
+Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+
+
+| O Controle Financeiro é um assistente pessoal que utiliza inteligência artificial para simplificar a gestão de finanças. O diferencial do app é a interação via chat, permitindo que o usuário registre suas movimentações financeiras através de conversas naturais, sem a necessidade de planilhas ou formulários complexos. |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Funcionalidades Principais:                                                                                                                                                                                                                                                                                                    |
+| Cadastro no chat: Processamento de linguagem natural para identificar valores, descrições e categorias de entradas e retiradas.                                                                                                                                                                                                |
+| Dashboard em Tempo Real: Visualização clara do saldo atual, total de entradas e total de retiradas, além de gráficos por categoria.                                                                                                                                                                                            |
+| Gestão de Metas: Ferramenta para definir objetivos financeiros e acompanhar o progresso de economia para cada um deles.                                                                                                                                                                                                        |
+| Dicas Inteligentes: Conselhos personalizados gerados pela IA baseados no comportamento financeiro do usuário.                                                                                                                                                                                                                  |
+| Segurança: Acesso protegido por senha (padrão: 1234) e armazenamento de dados local.                                                                                                                                                                                                                                           |
+| 2. Reflexão sobre o Processo                                                                                                                                                                                                                                                                                                   |
+| O que funcionou bem?                                                                                                                                                                                                                                                                                                           |
+| Extração de Dados com Gemini: A IA foi extremamente eficiente em transformar frases informais em dados estruturados (JSON), o que é o coração da experiência do usuário.                                                                                                                                                       |
+| Componentes da interface do usuário:A utilização doshadcn/uipermitiu uma interface limpa, responsiva e com visual profissional de forma muito ágil.                                                                                                                                                                            |
+| Persistência de Dados: O uso do armazenamento local funcionou perfeitamente para manter a experiência do usuário consistente entre sessões sem a necessidade de um banco de dados complexo para o MVP.                                                                                                                         |
+| O que não funcionou como o esperado?                                                                                                                                                                                                                                                                                           |
+| Configuração de Caminhos (Aliases): Houve um conflito inicial entre a instalação automática das bibliotecas e a estrutura de pastas do projeto (/src), exigindo ajustes manuais no tsconfig.jsonevite.config.ts.                                                                                                               |
+| Estilização do Tailwind v4: Algumas classes de borda e cores do tema precisaram de ajustes manuais no arquivo CSS global para garantir que o compilador do Vite não gerasse erros de "classe desconhecida".                                                                                                                    |
+| O que aprendi sobre conversar com IAs?                                                                                                                                                                                                                                                                                         |
+| Especificidade nos Termos: Aprendi que definir termos específicos (como trocar "Gastos" por "Retiradas") logo no início ajuda a IA a manter a identidade visual e textual do app em todos os componentes.                                                                                                                      |
+| Desenvolvimento Incremental: É muito mais eficaz solicitar uma funcionalidade por vez e validar o código, garantindo que a base do aplicativo esteja sólida antes de adicionar recursos de segurança ou relatórios avançados.                                                                                                  |
+| Feedback de Erros: Fornecer os logs de erro diretamente para a IA é a maneira mais rápida de resolver problemas de compilação, pois ela consegue identificar exatamente qual configuração de ambiente está faltando.     
+
+|
   - O que funcionou bem?  
   - O que não funcionou como o esperado?  
   - O que aprendeu sobre conversar com IAs?
