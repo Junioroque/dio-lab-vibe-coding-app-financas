@@ -77,9 +77,6 @@ Interações com Google Studio:
 ><img width="1911" height="836" alt="image" src="https://github.com/user-attachments/assets/d05c3295-ee03-4b37-bf75-015335ef19c3" />
   
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
-
-
 | O Controle Financeiro é um assistente pessoal que utiliza inteligência artificial para simplificar a gestão de finanças. O diferencial do app é a interação via chat, permitindo que o usuário registre suas movimentações financeiras através de conversas naturais, sem a necessidade de planilhas ou formulários complexos. |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Funcionalidades Principais:                                                                                                                                                                                                                                                                                                    |
@@ -102,9 +99,7 @@ Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu pr
 | Feedback de Erros: Fornecer os logs de erro diretamente para a IA é a maneira mais rápida de resolver problemas de compilação, pois ela consegue identificar exatamente qual configuração de ambiente está faltando.     
 
 |
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
